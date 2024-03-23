@@ -28,8 +28,8 @@ def text_transform(text):
         y.append(ps.stem(i))
     return " ".join(y)
 
-cv = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('EspamModel.pkl', 'rb'))
+cv = pickle.load(open('./vectorizer.pkl', 'rb'))
+model = pickle.load(open('./EspamModel.pkl', 'rb'))
 
 st.title("Classifier")
 
