@@ -28,10 +28,10 @@ def text_transform(text):
         y.append(ps.stem(i))
     return " ".join(y)
 
-cv = pickle.load(open('./vectorizer.pkl', 'rb'))
-model = pickle.load(open('./EspamModel.pkl', 'rb'))
+cv = pickle.load(open('./tfidf_maxF_vec.pkl', 'rb'))
+model = pickle.load(open('./MNB_EsModel.pkl', 'rb'))
 
-st.title("Classifier")
+st.title("Spam Email Check")
 
 input_msg = st.text_input("Enter Message")
 
