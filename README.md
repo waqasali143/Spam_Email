@@ -7,7 +7,8 @@ We will also download the different nltk packages for this project.
 # Task:<br>
 <strong> Email messages spam or not spam <br><br>
 How many messages are Spam or not spam? In this dataset. We check by pie plot<br>
-![Screenshot 2024-03-23 145121](https://github.com/waqasali143/Spam_Email/assets/82609521/1ab04004-1469-4a63-85fa-0e45c808b27e)
+![Screenshot 2024-03-24 131052](https://github.com/waqasali143/Spam_Email/assets/82609521/35170ad6-c856-46cf-a2c4-04d02af8aea5)
+
 <br> 
 # Text Preprocessing<br>
 and follow will these essential steps.
@@ -20,19 +21,21 @@ and follow will these essential steps.
 
 # After Training with different Model Results <br><br>
 ## CountVectorizer Result <br>
-![cv](https://github.com/waqasali143/Spam_Email/assets/82609521/0773b83a-825f-404c-8454-901aad6d540e)
+![cv](https://github.com/waqasali143/Spam_Email/assets/82609521/91af1fd7-a333-4f75-909c-1cbce4efb833)
+
 <br> <br>
 ## TfidfVectorizer Results <br> <br>
-![tf](https://github.com/waqasali143/Spam_Email/assets/82609521/3bbf83db-b3bc-427a-b039-891ab8f6ff6a)
+![tf](https://github.com/waqasali143/Spam_Email/assets/82609521/4e3f9642-1e96-400e-84a7-29a816516ca6)
+
 <br> <br>
 ## TfidfVectorizer with Max feature Results <br> <br>
-![mtf](https://github.com/waqasali143/Spam_Email/assets/82609521/a46e8959-06b4-4aa9-b977-d22f6b7fec1c)
+![tfm](https://github.com/waqasali143/Spam_Email/assets/82609521/087006b9-10ff-4cb4-b068-559550c7905b)
+
 <br> <br>
-### I got the best results with Tfidfvectorizer. KNeighborsClassifier and MultinomialNB model showing the best result
+### I got the best results with Tfidfvectorizer with Max feature. MultinomialNB model showing the best result
 Model
 
-MNB => PrecisionScore = 1.000000 AccScore = 0.925926 f1_Score = 0.845833
+MNB => PrecisionScore = 1.000000 AccScore = 0.973888 f1_Score = 0.872038
 
-KN => PrecisionScore = 0.980237 AccScore = 0.965966 f1_Score = 0.935849 <br>
 
 
