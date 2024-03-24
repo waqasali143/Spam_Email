@@ -1,5 +1,5 @@
 ## Spam_Email<br>
-#### Email Spam App <br>
+#### [[Email Spam App](https://spam-email-w.streamlit.app/)] <br> 
 # <strong> Problem Statment<br>
 Email is a powerful tool for communication It is one of the most popular and secure mediums for online transferring and communicating messages or data through the web.But, due to social networks, most of the emails contain unwanted information which is called spam. Identifying such spam emails is one of the important challenges. In this project, we will use the PYTHON text classification technique to identify or classify email spam messages.
 On Email Dataset, we will also compare which algorithm is best for text classification.<br>
